@@ -24,6 +24,15 @@
 			<Component Id="ProductComponent" Guid="dfae4a46-d66f-4328-a2ba-dce9b838a2c7">
 				<File Id="MementoEXE" Source="$(var.Memento.TargetPath)" KeyPath="yes"></File>
 			</Component>
+			<Component Id="VCRuntime140" Guid="dfae4a46-d66f-4328-a2ba-dce9b838a2c8">
+				<File Id="VCRuntime140DLL" Source="..\Memento\Redist\VCRuntime140.dll" KeyPath="yes"></File>
+			</Component>
+			<Component Id="VCRuntime140_1" Guid="dfae4a46-d66f-4328-a2ba-dce9b838a2c9">
+				<File Id="VCRuntime140_1DLL" Source="..\Memento\Redist\VCRuntime140_1.dll" KeyPath="yes"></File>
+			</Component>
+			<Component Id="msvcp140" Guid="dfae4a46-d66f-4328-a2ba-dce9b838a2c1">
+				<File Id="msvcp140DLL" Source="..\Memento\Redist\msvcp140.dll" KeyPath="yes"></File>
+			</Component>
 		</ComponentGroup>
 	</Fragment>
 </Wix>
