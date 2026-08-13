@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Memento/Memento.vcxproj" Id="d60bfcd2-b5a2-463d-bc6d-e61a873d9007" />
+  <Project Path="SetupProject1/SetupProject1.wixproj" Id="a3491bcc-f574-44fd-b718-fbe86fe35af8">
+    <Platform Project="x86" />
+    <Build />
+  </Project>
+</Solution>
